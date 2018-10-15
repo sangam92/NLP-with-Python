@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 
 #change working directory to the working directory
 print(os.getcwd())
-os.chdir("/Users/eotoke/Documents/Mtech/08.Text Mining/CA")
+os.chdir("/Users/eotoke/Documents/08.Text Mining/CA")
 print(os.getcwd())
 
 #read in the dataset into dataframe data
