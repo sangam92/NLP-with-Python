@@ -316,15 +316,6 @@ print tfidf.shape
 #Out of Sample Classification Accuracy for ensemble:  0.73981884058
 
 
-#predicting for unlabelled data using feature hashing using a single SVM
-svm = train_svm(X_allf, y_all)
-#predicting for the unlabelled data
-predUnlabelled = svm.predict(featMatrix[235:])
-predUL=list(predUnlabelled)
-
-import csv
-with open('ULPredictions.csv', 'wb') as f:
-    csv.writer(f).writerow(predUL)
 
     
 #Other explorations
